@@ -1,15 +1,14 @@
-var MakeDancer = function(top, left, timeBetweenSteps){
-  this.$node = $('<span class="dancer"></span>');
+var MakeDancer2 = function(top, left, timeBetweenSteps){
+  this.$node = $('<span class="squareDancer"></span>');
   this.timeBetweenSteps = timeBetweenSteps;
   this.step();
   this.setPosition(top, left);
 };
 
-MakeDancer.prototype.step = function(){
-  var bound = this.step.bind(this);
-  setTimeout(bound, this.timeBetweenSteps);
+MakeDancer2.prototype.step = function(){
+  setTimeout(this.step.bind(this), this.timeBetweenSteps);
 }
 
-MakeDancer.prototype.setPosition = function(top, left){
+MakeDancer2.prototype.setPosition = function(top, left){
   this.$node.css({top: top, left: left});
 };
