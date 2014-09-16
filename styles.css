@@ -3,7 +3,7 @@ body, html{
 }
 body{
   margin: 0px;
-  background-color:#444;
+  background-color:white;
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
@@ -27,6 +27,17 @@ body, a:link, a:visited, a:active{
 }
 
 .squareDancer{
-  border:5px solid green;
+  background-image: url('carlton.gif');
+  height:500px;
+  width:380px;
+  background-repeat:no-repeat;
+  position:absolute;
+}
+
+.danceTroll{
+  background-image: url('trollface-dancing.gif');
+  height:500px;
+  width:310px;
+  background-repeat:no-repeat;
   position:absolute;
 }
