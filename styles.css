@@ -25,3 +25,8 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
+
+.squareDancer{
+  border:5px solid green;
+  position:absolute;
+}
