@@ -33,3 +33,16 @@ describe("blinkyDancer", function() {
     });
   });
 });
+
+describe("Carlton", function() {
+  var carlton;
+
+  beforeEach(function() {
+    carlton = new MakeSquareDancer();
+  });
+
+  it("should have a class of squareDancer", function() {
+  expect(carlton.$node.hasClass('squareDancer')).to.be.equal(true);
+    // expect(carlton.$node.hasClass('squareDancer')).to.be.(true);
+  })
+})

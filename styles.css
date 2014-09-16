@@ -36,8 +36,25 @@ body, a:link, a:visited, a:active{
 
 .danceTroll{
   background-image: url('trollface-dancing.gif');
-  height:500px;
-  width:310px;
+  height:180px;
+  width: 150px;
   background-repeat:no-repeat;
   position:absolute;
+}
+
+.danceDynamite {
+  background-image: url('napolean.gif');
+  width:200px;
+  height:200px;
+  background-repeat:no-repeat;
+  position:absolute;
+}
+
+.lineUp {
+  left: 5% !important;
+}
+
+#line {
+  padding:5px 12px;
+  float:right;
 }
