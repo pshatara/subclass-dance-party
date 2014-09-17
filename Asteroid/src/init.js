@@ -46,7 +46,7 @@ console.log("up")
 
         var laser = new Laser(y, x, 'laser');
 
-        $(laser.$node).appendTo(ship.$node).animate({'top': '0px', 'left': '4000px'}, 3000, 'linear');
+        $(laser.$node).appendTo(ship.$node).animate({'top': '0px', 'left': '2000px'}, 500, 'linear');
 
         console.log($(laser.$node))
         break;
